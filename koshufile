@@ -3,7 +3,7 @@
 param environment='local'
 param pipeline_counter=0
 
-declare version="1.0.0.$pipeline_counter"
+version="1.0.0.$pipeline_counter"
 
 task test {
   echo 'Running tests'
