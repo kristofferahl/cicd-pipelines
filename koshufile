@@ -7,3 +7,7 @@ task default {
 task test {
   echo 'Running tests'
 }
+
+task deploy {
+  echo "Deploying using $DEPLOYMENT_KEY"
+}
