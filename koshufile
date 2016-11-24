@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+task default {
+  echo 'Hello world!'
+}
+
+task test {
+  echo 'Running tests'
+}
