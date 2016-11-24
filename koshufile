@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
 param environment='local'
+param pipeline_counter=0
+
+declare version="1.0.0.$pipeline_counter"
 
 task test {
   echo 'Running tests'
@@ -8,12 +11,13 @@ task test {
 
 task pack {
   mkdir -p ./.work/artifacts/
-  tar -czf ./.work/artifacts/release.$RANDOM.tar.gz ./docker
+  tar -czf ./.work/artifacts/release.$version.tar.gz ./docker
 }
 
 task deploy {
-  echo "Deploying to $environment using $DEPLOYMENT_KEY"
+  echo "Deploying release $version to $environment using $DEPLOYMENT_KEY"
 
+  echo
   echo 'Listing files in artifacts dir'
   ls ./.work/artifacts/
 }
