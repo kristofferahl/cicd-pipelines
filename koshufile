@@ -1,13 +1,16 @@
 #!/usr/bin/env bash
 
-task default {
-  echo 'Hello world!'
-}
+param environment='local'
 
 task test {
   echo 'Running tests'
 }
 
+task pack {
+  mkdir -p ./.work/artifacts/
+  tar -czf ./.work/artifacts/release.$RANDOM.tar.gz ./docker
+}
+
 task deploy {
-  echo "Deploying using $DEPLOYMENT_KEY"
+  echo "Deploying to $environment using $DEPLOYMENT_KEY"
 }
