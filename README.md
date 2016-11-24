@@ -5,10 +5,11 @@
 - Docker support is "by request" only
 
 ## SnapCI
-[![Build Status](https://snap-ci.com/kristofferahl/codeship-test/branch/master/build_image)](https://snap-ci.com/kristofferahl/codeship-test/branch/master)
+[![Build Status](https://snap-ci.com/kristofferahl/cicd-pipelines/branch/master/build_image)](https://snap-ci.com/kristofferahl/cicd-pipelines/branch/master)
 - Simple pipeline structure
 - Partial docker support
 - No declarative configuration
 - Renaming a repository results in a broken pipeline (connection could not be repaired)
+- Unable to clone pipeline from one repository to another
 
 ## ..
