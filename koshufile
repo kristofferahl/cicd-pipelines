@@ -13,4 +13,7 @@ task pack {
 
 task deploy {
   echo "Deploying to $environment using $DEPLOYMENT_KEY"
+
+  echo 'Listing files in artifacts dir'
+  ls ./.work/artifacts/
 }
