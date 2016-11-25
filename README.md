@@ -30,4 +30,4 @@
 
 ## ..
 - wercker
-- drope.io
+- drone.io
