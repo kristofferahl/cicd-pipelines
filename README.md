@@ -13,6 +13,9 @@
 - Maturity level
 
 ## Concourse.ci
+Homepage: http://concourse.ci   
+Badge:
+
 - Self hosted
 - Open source
 - Endlessly configurable pipelines
@@ -20,6 +23,9 @@
 - Steep getting started curve
 
 ## Buildkite
+Homepage: https://buildkite.com   
+Badge:
+
 - Hosted
 - Simple pipelines
 - Easy to use
@@ -27,13 +33,17 @@
 - Docker support
 
 ## Codeship
-[![Codeship Status for kristofferahl/cicd-pipelines](https://codeship.com/projects/6f601af0-9472-0134-71d5-3643c9f33b1e/status?branch=master)](https://codeship.com/projects/186635)
+Homepage: https://codeship.com   
+Badge: [![Codeship Status for kristofferahl/cicd-pipelines](https://codeship.com/projects/6f601af0-9472-0134-71d5-3643c9f33b1e/status?branch=master)](https://codeship.com/projects/186635)
+
 - Hosted
 - Docker support is "by request" only
 - jet for local debug
 
 ## SnapCI
-[![Build Status](https://snap-ci.com/kristofferahl/cicd-pipelines/branch/master/build_image)](https://snap-ci.com/kristofferahl/cicd-pipelines/branch/master)
+Homepage: https://snap-ci.com   
+Badge: [![Build Status](https://snap-ci.com/kristofferahl/cicd-pipelines/branch/master/build_image)](https://snap-ci.com/kristofferahl/cicd-pipelines/branch/master)
+
 - Hosted
 - Docker support is "by request" only
 - Simple pipeline structure
@@ -43,6 +53,9 @@
 - A bit immature..?
 
 ## Shippable
+Homepage: https://app.shippable.com   
+Badge:
+
 - Failed getting started...
 
 ## ..
