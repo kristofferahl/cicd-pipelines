@@ -1,5 +1,17 @@
 # CI/CD pipeline test
 
+## Evaluation points
+- Hosted / Self hosted
+- Docker support
+- Supports CI/CD for multiple languages
+- Integrates with other CI/CD products
+- Self hosted worker support
+- Debugging / running locally / SSH
+- Automation support
+- Declarative configuration
+- Backup / Restore / Disaster recovery
+- Maturity level
+
 ## Concourse.ci
 - Self hosted
 - Open source
@@ -8,6 +20,7 @@
 - Steep getting started curve
 
 ## Buildkite
+- Hosted
 - Simple pipelines
 - Easy to use
 - Less pipeline focused
