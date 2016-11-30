@@ -31,6 +31,7 @@ Badge:
 - Easy to use
 - Less pipeline focused
 - Docker support
+- Compose pipelines of pipelines
 
 ## Codeship
 Homepage: https://codeship.com   
